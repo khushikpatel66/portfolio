@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khushi Patel | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: white;
+     font-family: 'Courier New', Courier, monospace;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #1e293b;
+      height: 60;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+    }
+
+    .left {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #38bdf8;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li {
+      list-style: none;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+
+    nav ul li:hover {
+      color: #38bdf8;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h1, h2 {
+      color: #38bdf8;
+      margin-bottom: 1rem;
+    }
+
+    .skills ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li {
+      background-color: #1e293b;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .projects .project {
+      background-color: #1e293b;
+      padding: 1rem;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #1e293b;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="left">Khushi Patel</div>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Skills</li>
+      <li>Projects</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section class="about">
+        <h1>About Me</h1>
+        <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+          <img src="img.jpg" alt="Khushi Patel" style="width:150px; border-radius: 10px;">
+          <p style="flex: 1;">
+            Hello! I'm Khushi Patel, a 3rd-year engineering student passionate about technology and creativity.
+            I enjoy solving problems, building cool things, and continuously learning new skills.
+          </p>
+        </div>
+      </section>
+      
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C/C++</li>
+        <li>Python</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Student Attendance System</h3>
+        <p>A simple web-based app to manage class attendance using HTML, CSS, and JS.</p>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio site is a project to showcase my learning and progress as a student.</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: patelkhushikiranbhi@gmail.com</p>
+      <p>LinkedIn: linkedin.com/in/khushi kiranbhai patel</p>
+    </section>
+  </div>
+
+  <footer>
+     2025 Khushi Patel | Engineering Student Portfolio
+  </footer>
+</body>
+</html>
